@@ -23,6 +23,8 @@ More details regarding the app are described in the manuscript:
 
 ## Getting Started
 
+The app is hosted on the website: https://szenitha.shinyapps.io/shiny-seq3/
+
 To run this app locally on your machine, download R or RStudio and run the following commands once to set up the environment:
 
 ```
