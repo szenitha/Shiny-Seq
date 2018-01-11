@@ -1,10 +1,10 @@
 # Shiny-Seq
 
-Complex data analysis can be quite a daunting task for biologists with limited or no programming and statistical background. To alleviate this problem interactive web based applications such as [shinyngs](https://github.com/pinin4fjords/shinyngs), [START](https://github.com/jminnier/STARTapp), [Degust](http://victorian-bioinformatics-consortium.github.io/degust/), [Explore DEG](http://fgcz-shiny.uzh.ch/fgcz_exploreDEG_app/), [DEBrowser]() were designed to assist biologists to explore, visualize, and interpret RNA-Seq data (with particular focus on differential gene expression analysis) to understand the biological phenomena involved in genomic studies. However, these applications still lacked several crucial and useful features in one or more of the steps involved in RNA-Seq analysis. To address these inadequacies, we developed the tool Shiny-Seq that has many new features. As discussed below, these features help to do more comprehensive data analysis and obtain accurate results through suitable statistical analysis and correction techniques. 
+Complex data analysis can be quite a daunting task for biologists with limited or no programming and statistical background. To alleviate this problem interactive web based applications such as [shinyngs](https://github.com/pinin4fjords/shinyngs), [START](https://github.com/jminnier/STARTapp), [Degust](http://victorian-bioinformatics-consortium.github.io/degust/), [Explore DEG](http://fgcz-shiny.uzh.ch/fgcz_exploreDEG_app/), [DEBrowser](https://bioconductor.org/packages/release/bioc/html/debrowser.html) were designed to assist biologists to explore, visualize, and interpret RNA-Seq data (with particular focus on differential gene expression analysis) to understand the biological phenomena involved in genomic studies. However, these applications still lacked several crucial and useful features in one or more of the steps involved in RNA-Seq analysis. To address these inadequacies, we developed the tool Shiny-Seq that has many new features. As discussed below, these features help to do more comprehensive data analysis and obtain accurate results through suitable statistical analysis and correction techniques. 
 
 Shiny-Seq is a comprehensive application tool that comprises of carefully chosen statistical techniques and R-packages to carry out the various steps required to do down-stream differential expression analysis , and, integrating them to function as a coherent workflow with interactive, visualization, analysis and report generation capabilities. It is designed to act as an interface between the user and the pipeline by taking inputs from the user at each step of the pipeline and calling the appropriate modules in the pipeline for the purpose of exploratory and differential expression analysis of RNA-Seq data. 
 
-More details regarding the app are described in the manuscript:
+More details regarding the app are described in the [manuscript](https://github.com/szenitha/Shiny-Seq/blob/master/Shiny-Seq_manuscript.pdf).
 
 ## Features unique to Shiny-Seq
 - Data Input and pre-processing:
@@ -47,6 +47,11 @@ After setting up the environment, download the [App folder](https://github.com/s
 
 An example dataset has been provided for use in addition to a protocol to explain the various steps involved in doing the RNA-Seq data
 analysis and demonstrate how the application helps to do an end to end analysis to derive useful insights.
+
+## Limitation
+
+Due to memory constrains the features WGCNA, enrichment of GO terms and generation of PowerPoint presentation cannot be supported by the application hosted on the public website shinyapps.io server https://szenitha.shinyapps.io/shiny-seq3/. With funding the memory limitation can be increased. Currently 1GB of memory can only be accessed. However users can host the application in their own servers. The application has been tested to do well on chrome and firefox browsers.
+ 
 
 
 
