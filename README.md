@@ -53,5 +53,6 @@ analysis and demonstrate how the application helps to do an end to end analysis 
 Due to memory constrains the features WGCNA, enrichment of GO terms and generation of PowerPoint presentation cannot be supported by the application hosted on the public website shinyapps.io server https://szenitha.shinyapps.io/shiny-seq3/. With funding the memory limitation can be increased. Currently 1GB of memory can only be accessed. However users can host the application in their own servers. The application has been tested to do well on chrome and firefox browsers.
  
 
-
+## License
+See the [LICENSE](https://github.com/szenitha/Shiny-Seq/blob/master/LICENSE.txt) file for license rights and limitations.
 
