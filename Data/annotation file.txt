@@ -1,0 +1,10 @@
+SampleID	Phenotype	Donor
+s_629	IFNg	BC9
+s_784	IFNg	BC13
+s_951	IFNg	BC78
+s_626	IL4	BC9
+s_783	IL4	BC13
+s_957	IL4	BC78
+s_627	baseline	BC9
+s_781	baseline	BC13
+s_948	baseline	BC78
